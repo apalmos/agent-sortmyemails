@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-sortmyemails"
+version = "0.1.0"
+description = "A very simple agent to sort through and categorize emails"
+authors = [{ name = "Alish Palmos", email = "alishpalmos@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+dependencies = [
+    "dotenv>=0.9.9",
+    "google-api-python-client>=2.172.0",
+    "google-auth-oauthlib>=1.2.2",
+    "openai>=1.87.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/apalmos/agent-sortmyemails"

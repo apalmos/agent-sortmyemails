@@ -1,0 +1,12 @@
+.venv
+build
+uv.lock
+credentials.json
+token.pickle
+.env
+agent-sortmyemails/.env
+agent-sortmyemails/agent_sortmyemails.egg-info
+agent_sortmyemails.egg-info/
+__pycache__/
+*.pyc
+.pytest_cache/

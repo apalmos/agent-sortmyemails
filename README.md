@@ -14,6 +14,16 @@ Smart email sorter using OpenAI GPT and Gmail API.
    - Download `credentials.json` and place it in the root directory.
 3. **OpenAI API Key**.
 
+### Important: File Placement
+Your project directory should look like this before running:
+
+```text
+agent-sortmyemails/
+├── credentials.json   <-- Download from Google Cloud
+├── .env               <-- Create this file for OpenAI key
+├── ...
+```
+
 ### Installation
 1. Create a virtual environment:
    ```bash
@@ -27,7 +37,7 @@ Smart email sorter using OpenAI GPT and Gmail API.
    pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client openai python-dotenv
    ```
 3. Set up environment variables:
-   Create a `.env` file in the root directory:
+   Create a `.env` file in the **root directory** (same level as `README.md`):
    ```
    OPENAI_API_KEY=sk-your-openai-api-key
    ```
